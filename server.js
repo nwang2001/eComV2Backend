@@ -18,7 +18,7 @@ database.connect(function (err) {
 });
 
 app.get('/store', (req, res) => {
-    const sql = 'SELECT * FROM products.`product-items`';
+    const sql = 'SELECT * FROM sql3679001.`products`';
     database.query(sql, (err, data) => {
         if (err) throw err;
         return res.json(data)
