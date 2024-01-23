@@ -6,10 +6,10 @@ const app = express()
 app.use(cors())
 
 const database = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "p@ssword",
-    database: "products"
+    host: "sql3.freesqldatabase.com",
+    user: "sql3679001",
+    password: "B8xFfakTIB",
+    database: "sql3679001"
 })
 
 database.connect(function (err) {
